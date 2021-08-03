@@ -6,7 +6,6 @@ Given the number of trailing days  and a client's total daily expenditures for a
 
 **Example**
 expenditure = [10, 20, 30, 40, 50]
-
 d = 3 
 
 On the first three days, they just collect spending data. At day 4, trailing expenditures are [10,20,30]. The median is 20 and the day's expenditure is 40. Because 40>=2x20 , there will be a notice. The next day, trailing expenditures are [20,30,40] and the expenditures are 50 . This is less than 2x30 so no notice will be sent. Over the period, there was one notice sent.
