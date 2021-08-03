@@ -13,7 +13,7 @@ def calc_median(arr: list) -> int:
     if len(arr) == 0:
         raise ValueError
     middle = len(arr) // 2
-    if middle % 2 == 0:
+    if len(arr) % 2 == 0:
         return (arr[middle - 1] + arr[middle]) / 2
     return arr[middle]
 
